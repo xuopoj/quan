@@ -5,8 +5,8 @@ var OFFSET = 20;
 var now = new Date();
 
 var eight = new Date();
-eight.setHours(23);
-eight.setMinutes(34);
+eight.setHours(0);
+eight.setMinutes(0);
 eight.setSeconds(0);
 eight.setMilliseconds(0);
 
