@@ -5,7 +5,7 @@ var OFFSET = 20;
 var now = new Date();
 
 var eight = new Date();
-eight.setHours(0);
+eight.setHours(8);
 eight.setMinutes(0);
 eight.setSeconds(0);
 eight.setMilliseconds(0);
