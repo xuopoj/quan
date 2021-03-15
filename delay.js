@@ -6,7 +6,7 @@ var now = new Date();
 
 var eight = new Date();
 eight.setHours(23);
-eight.setMinutes(22);
+eight.setMinutes(34);
 eight.setSeconds(0);
 eight.setMilliseconds(0);
 
