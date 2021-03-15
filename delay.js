@@ -5,14 +5,14 @@ var OFFSET = 20;
 var now = new Date();
 
 var eight = new Date();
-eight.setHours(17);
-eight.setMinutes(15);
+eight.setHours(23);
+eight.setMinutes(22);
 eight.setSeconds(0);
 eight.setMilliseconds(0);
 
-console.log('now: ' + now + 'TTT milliseconds' + now.getMilliseconds());
+console.log('now: ' + now + ', milliseconds: ' + now.getMilliseconds());
 
-console.log('wait until: ' + eight + 'TTT milliseconds' + eight.getMilliseconds());
+console.log('wait until: ' + eight + ', milliseconds: ' + eight.getMilliseconds());
 
 var delay = eight - now - OFFSET;
 
